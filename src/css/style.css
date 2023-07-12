@@ -4,8 +4,8 @@ html{
 
 body{
   max-width: 1440px;
-  height: 89vh;
   background: var(--violet) url(../images/bg-desktop.svg) no-repeat;
+  background-size: auto;
   font-family: 'Open Sans', sans-serif;
   color: #fff;
 }
@@ -22,7 +22,10 @@ body{
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 85px;
+}
+
+.mockup-illustration{
+  margin: 40px 70px;
 }
 
 .register{
@@ -63,9 +66,9 @@ body{
 
 .footer .social-icons{
   display: flex;
-  justify-content: end;
   gap: 15px;
-  padding: 20px;
+  justify-content: end;
+  padding: 8px;
 }
 
 .footer .social-icons .icon{
