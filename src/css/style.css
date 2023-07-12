@@ -5,8 +5,9 @@ html{
 body{
   max-width: 1440px;
   height: 89vh;
-  background: plum url(../images/bg-desktop.svg) no-repeat;
+  background: var(--violet) url(../images/bg-desktop.svg) no-repeat;
   font-family: 'Open Sans', sans-serif;
+  color: #fff;
 }
 
 .header{
@@ -52,10 +53,12 @@ body{
   padding: 20px;
   width: 200px;
   cursor: pointer;
+  color: var(--violet);
 }
 
 .btn:hover{
-  background-color: red;
+  color: #fff;
+  background-color: var(--soft-magenta);
 }
 
 .footer .social-icons{
@@ -70,19 +73,21 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  border: 1px solid #ffffff;
+  border: 1px solid #fff;
   border-radius: 50%;
   width: 40px;
   height: 40px;
 }
 
 .social-icons .icon a{
-  color: #ffffff;
+  color: #fff;
 }
 
-
+.social-icons .icon a:hover{
+  color: var(--soft-magenta);
+}
 
 .social-icons .icon:hover{
-  border: 1px solid red;
-  color: red;
+  border: 1px solid var(--soft-magenta);
+  color: var(--soft-magenta);
 }
